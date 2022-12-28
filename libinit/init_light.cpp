@@ -17,7 +17,7 @@ static const variant_info_t light_info = {
 };
 
 static const variant_info_t thunder_info = {
-    .hwc_value = "Global_PA",
+    .hwname_value="thunder",
     .sku_value = "",
     .device = "thunder",
     .nfc = false,
