@@ -239,6 +239,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
+# Prebuilt
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/prebuilt/dtb.img:dtb.img
+
 # Rootdir
 PRODUCT_PACKAGES += \
     getwlansar.sh \
