@@ -298,6 +298,10 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.3-impl
 
+# VNDK
+PRODUCT_PACKAGES += \
+    libutils-v32
+
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service-lazy.light \
