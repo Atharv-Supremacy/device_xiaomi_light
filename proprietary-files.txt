@@ -480,9 +480,6 @@ vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
 vendor/bin/hw/vendor.microtrust.hardware.soter@1.0-service
-vendor/bin/hw/vendor.xiaomi.hardware.misys@1.0-service
-vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service
-vendor/bin/hw/vendor.xiaomi.hardware.misys@3.0-service
 vendor/bin/hw/vtservice_hidl
 vendor/bin/AgentTest
 vendor/bin/SoterProvisioningTool
@@ -882,9 +879,6 @@ vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc
 vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
 vendor/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc
-vendor/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc
-vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc
-vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc
 vendor/etc/init/vendor_flash_recovery.rc
 vendor/etc/init/vibrator-mtk-default.rc
@@ -1235,9 +1229,6 @@ vendor/etc/vintf/manifest/manifest_hwcomposer.xml
 vendor/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml
 vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.vsimapp.xml
 vendor/etc/vintf/manifest/power-default.xml
-vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@1.0.xml
-vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@2.0.xml
-vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@3.0.xml
 vendor/etc/vintf/manifest/vibrator-mtk-default.xml
 vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.3/bkd
 vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.3/model.bin
@@ -1981,9 +1972,6 @@ vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
-vendor/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
-vendor/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
-vendor/lib/hw/vendor.xiaomi.hardware.misys@3.0-impl.so
 vendor/lib/mt6833/libmtk_drvb.so
 vendor/lib/mt6833/libnir_neon_driver.so
 vendor/lib/AVCSecureVdecCA.so
@@ -2799,7 +2787,6 @@ vendor/lib/libbt-vendor.so
 vendor/lib/libcares_naptr.so
 vendor/lib/libcarrierconfig.so
 vendor/lib/libccci_util.so
-vendor/lib/libcheckpid.so
 vendor/lib/libcmdl.so
 vendor/lib/libcmdl_ndk.mtk.vndk.so
 vendor/lib/libcodec2_soft_mtk_alacdec.so
@@ -2944,9 +2931,6 @@ vendor/lib/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.1.so
 vendor/lib/vendor.mediatek.hardware.rcs@2.0.so
 vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
-vendor/lib/vendor.xiaomi.hardware.misys@1.0.so
-vendor/lib/vendor.xiaomi.hardware.misys@2.0.so
-vendor/lib/vendor.xiaomi.hardware.misys@3.0.so
 vendor/lib/vendor.xiaomi.hardware.vsimapp@1.0.so
 vendor/lib64/hw/gps.default.so
 vendor/lib64/hw/kmsetkey.beanpod.so
@@ -2965,9 +2949,6 @@ vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
-vendor/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
-vendor/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
-vendor/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so
 vendor/lib64/mt6833/libmtk_drvb.so
 vendor/lib64/mt6833/libnir_neon_driver.so
 vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
@@ -3891,7 +3872,6 @@ vendor/lib64/libcameracustom.so
 vendor/lib64/libcares_naptr.so
 vendor/lib64/libcarrierconfig.so
 vendor/lib64/libccci_util.so
-vendor/lib64/libcheckpid.so
 vendor/lib64/libcmdl.so
 vendor/lib64/libcmdl_ndk.mtk.vndk.so
 vendor/lib64/libcodec2_soft_mtk_alacdec.so
@@ -4161,9 +4141,6 @@ vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
 vendor/lib64/vendor.mediatek.hardware.power@2.0.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 vendor/lib64/vendor.microtrust.hardware.soter@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.misys@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so
-vendor/lib64/vendor.xiaomi.hardware.misys@3.0.so
 vendor/lib64/vendor.xiaomi.hardware.vsimapp@1.0.so
 vendor/odm/etc/permissions/sku_thunder/android.hardware.nfc.hce.xml
 vendor/odm/etc/permissions/sku_thunder/android.hardware.nfc.hcef.xml
