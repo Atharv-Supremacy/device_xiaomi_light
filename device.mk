@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/xiaomi/everpal/everpal-vendor.mk)
+$(call inherit-product, vendor/xiaomi/light/light-vendor.mk)
 
 # Dalvik configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
@@ -46,6 +46,10 @@ PRODUCT_PACKAGES += \
     otapreopt_script
 
 # Audio
+PRODUCT_PACKAGES += \
+    android.hardware.audio.service \
+    android.hardware.audio@7.0-impl:32
+
 PRODUCT_PACKAGES += \
     android.hardware.audio.common-util.vendor \
     android.hardware.audio.common@5.0.vendor \

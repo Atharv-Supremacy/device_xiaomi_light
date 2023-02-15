@@ -1,8 +1,6 @@
 # Unpinned blobs from light-user 12 SP1A.210812.016 V13.0.11.0.SLSMIXM release-keys
 
 # Audio
-vendor/bin/hw/android.hardware.audio.service.mediatek
-vendor/etc/init/android.hardware.audio.service.mediatek.rc
 vendor/lib/hw/audio.primary.mt6833.so
 vendor/lib/hw/audio.r_submix.default.so
 vendor/lib/hw/audio.r_submix.mt6833.so
