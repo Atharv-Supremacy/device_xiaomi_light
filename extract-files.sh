@@ -73,6 +73,9 @@ function blob_fixup {
     vendor/bin/hw/android.hardware.thermal@2.0-service.mtk)
         "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
         ;;
+    vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service)
+        "$PATCHELF" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "$2"
+        ;;
     esac
 }
 
