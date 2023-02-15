@@ -127,7 +127,6 @@ vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/memtrack.default.so
 vendor/lib/hw/vulkan.mali.so
-vendor/lib/hw/vulkan.mt6833.so
 vendor/lib/mt6833/libaiselector.so
 vendor/lib/mt6833/libdpframework.so
 vendor/lib/mt6833/libpq_prot.so
@@ -179,7 +178,6 @@ vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/hwcomposer.mt6833.so
 vendor/lib64/hw/memtrack.default.so
 vendor/lib64/hw/vulkan.mali.so
-vendor/lib64/hw/vulkan.mt6833.so
 vendor/lib64/mt6833/libaiselector.so
 vendor/lib64/mt6833/libdpframework.so
 vendor/lib64/mt6833/libpq_prot.so
