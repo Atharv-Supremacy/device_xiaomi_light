@@ -2819,6 +2819,7 @@ vendor/lib/libasn1c_mdmi.so
 vendor/lib/libaudio_param_parser-vnd.so
 vendor/lib/libaudiocompensationfilter_vendor.so
 vendor/lib/libaudiocompensationfilterc.so
+vendor/lib/libaudiocomponentengine_vendor.so
 vendor/lib/libaudiocomponentenginec.so
 vendor/lib/libaudiocustparam_vendor.so
 vendor/lib/libaudiodcrflt_vendor.so
