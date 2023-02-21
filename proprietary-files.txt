@@ -529,11 +529,6 @@ vendor/lib64/libkeystore-engine-wifi-hidl.so
 vendor/lib64/libkeystore-wifi-hidl.so
 vendor/lib64/libwifi-hal.so
 
-# Wi-Fi configs
-vendor/etc/wifi/p2p_supplicant_overlay.conf
-vendor/etc/wifi/wpa_supplicant.conf
-vendor/etc/wifi/wpa_supplicant_overlay.conf
-
 # Miscellaneous
 vendor/bin/hw/camerahalserver
 vendor/bin/hw/tetheroffloadservice
