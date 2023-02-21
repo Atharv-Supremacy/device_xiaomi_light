@@ -64,6 +64,42 @@ PRODUCT_PACKAGES += \
     mtk_plpath_utils \
     mtk_plpath_utils.recovery
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    getwlansar.sh \
+    init.insmod.sh \
+    setwlansarhigh.sh \
+    setsarcal.sh \
+    setwlansarlow.sh \
+
+PRODUCT_PACKAGES += \
+    fstab.mt6833 \
+    meta_init.modem.rc \
+    init.project.rc \
+    init_connectivity.rc \
+    init.connectivity.common.rc \
+    multi_init.rc \
+    meta_init.project.rc \
+    init.aee.rc \
+    meta_init.connectivity.common.rc \
+    factory_init.connectivity.common.rc \
+    meta_init.connectivity.rc \
+    factory_init.connectivity.rc \
+    init.connectivity.rc \
+    init.mt6833.usb.rc \
+    factory_init.rc \
+    init.ago.rc \
+    init.sensor_2_0.rc \
+    init.mt6833.rc \
+    init.modem.rc \
+    factory_init.project.rc \
+    meta_init.rc \
+    miui.factoryreset.rc \
+    init.recovery.hardware.rc \
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/fstab.mt6833:$(TARGET_VENDOR_RAMDISK_OUT)/first_stage_ramdisk/fstab.mt6833
+
 # Screen Resolution
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
