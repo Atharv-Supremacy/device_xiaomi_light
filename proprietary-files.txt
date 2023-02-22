@@ -63,11 +63,6 @@ vendor/etc/camera/mibokeh_mt6853_opencl.bin
 vendor/etc/camera/mibokeh_mt6853_parameter.bin
 vendor/etc/camera/sr_params.xml
 
-# CAS
-vendor/bin/hw/android.hardware.cas@1.2-service-lazy
-vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc
-vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml
-
 # Charger (Xiaomi)
 vendor/bin/hw/vendor.xiaomi.hardware.micharge@1.0-service
 vendor/etc/init/vendor.xiaomi.hardware.micharge@1.0-service.rc
