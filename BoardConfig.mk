@@ -125,6 +125,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 # SEPolicy
 SELINUX_IGNORE_NEVERALLOWS := true
+BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
 
 # RIL
